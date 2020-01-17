@@ -9,7 +9,7 @@ def timed_call(f, args):
     start_time = time.time()
     result = f(*args)
     elapsed_time = time.time() - start_time
-    return result, elapsed_time
+    return result, round(elapsed_time, 3)
 
 
 def get_similarity(image1_path, image2_path):

@@ -31,7 +31,6 @@ def simimgs(in_csv_path, out_csv_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('input_csv_path', metavar='input_csv_path',
                         help='file path to the input csv file')
     parser.add_argument('out_csv_path', metavar='out_csv_path',
