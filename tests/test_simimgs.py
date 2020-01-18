@@ -1,7 +1,7 @@
 import os
 import csv
 import unittest
-from main import simimgs
+from simimgs import simimgs
 from utils import get_similarity
 
 

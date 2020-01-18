@@ -1,7 +1,7 @@
 import os
 import csv
 import argparse
-from utils import get_similarity, timed_call
+from utils import timed_call, get_similarity
 
 
 def simimgs(in_csv_path: str, out_csv_path: str):
@@ -46,12 +46,10 @@ def main():
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('input_csv_path', metavar='input_csv_path',
                         help='file path to the input csv file')
-    parser.add_argument('out_csv_path', metavar='out_csv_path',
+    parser.add_argument('output_csv_path', metavar='out_csv_path',
                         help='file path to the output csv file')
     args = parser.parse_args()
-    print(args.accumulate(args.integers))
     simimgs(args.input_csv_path, args.output_csv_path)
-    simimgs('correct_in.csv', 'out.csv')
 
 
 if __name__ == '__main__':
