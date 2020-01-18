@@ -25,7 +25,7 @@ class TestSimimgs(unittest.TestCase):
         self.assertTrue(0 <= score <= 1)
 
     def testRelativeSimilarityImages(self):
-        # imgA is more similar to imgC than it is to imgB
+        # imgA is more similar to imgB than it is to imgC
         imgA_path = './tests/resources/images/giraffe1.jpg'
         imgB_path = './tests/resources/images/giraffe2.jpg'
         imgC_path = './tests/resources/images/hippo.jpg'

@@ -37,13 +37,12 @@ def simimgs(in_csv_path: str, out_csv_path: str):
                     else:
                         similarity_score, run_time = timed_call(get_similarity, [im1_path, im2_path])
                         csv_writer.writerow([im1_path, im2_path, similarity_score, run_time])
-    # TODO
     except Exception as e:
         print('Error: ', e)
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Compute similairy scores for pairs of images in an csv file.')
     parser.add_argument('input_csv_path', metavar='input_csv_path',
                         help='file path to the input csv file')
     parser.add_argument('output_csv_path', metavar='out_csv_path',
