@@ -1,6 +1,6 @@
 
 # simimgs
-simimgs is a python script that helps users to compare images and assign a similarity score based on SSIM. It takes a csv file that contains pairs of images and assigns a similarity score to each pair. Resuls are saved in an output csv file.
+simimgs is a python script that helps users to compare images and assign a similarity score based on SSIM. It takes a csv file that contains pairs of images and assigns a similarity score to each pair. Results are saved in an output csv file.
 
 ## Usage
 Assumed python3 and pip3 have been installed. In a CLI(Linux, Mac or Windows), first get the package:
