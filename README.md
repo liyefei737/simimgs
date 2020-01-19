@@ -25,7 +25,7 @@ https://pypi.org/project/simimgs/
 ## Design Considerations and Approach
 1. To have confidence that the code works, I set up a simple CI pipeline using Git Workflow that runs unit tests against every commit. The unit tests ensure that the script produces reasonable similarity scores and the correct output on correct or broken input files.
 2. Bjorn used to assign similarity scores by comparing the colors, shapes and other visual attributes. I used SSIM on multiple channels to mimic this approach. I think the more advanced way to do this is to use machine learning libraries and understand what's in each image.
-3. Bjorn can find how to use this script in many places. For example, he can use the script's built-in `-h` flag, read the README on this GitHub page.
+3. Bjorn can find how to use this script in many places. For example, he can use the script's built-in `-h` flag or read the README on this GitHub page.
 4. PyPi package will give Bjorn a quick and easy experience to get, run and update the script.
 5. To make Ferris's life easier, The following things would help:
      * docstrings and type annotation on functions
