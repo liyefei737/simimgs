@@ -12,8 +12,8 @@ def simimgs(in_csv_path: str, out_csv_path: str):
         write out the similarity score and running time in an output file, out_csv_path.
 
     Args:
-        in_csv_path: The first parameter.
-        out_csv_path: The second parameter.
+        in_csv_path: file path to the input csv file
+        out_csv_path: file path to the output csv file
     """
 
     try:
