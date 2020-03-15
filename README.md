@@ -16,7 +16,7 @@ To get help text:
 ```
  python -m simimgs -h
 ``` 
-To upgrade to the latest version on PyPi:
+To update to the latest version on PyPi:
 ```
  pip install --upgrade simimgs
 ``` 
